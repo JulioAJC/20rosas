@@ -1,0 +1,92 @@
+*{
+    
+}
+.cuerpo{
+
+   justify-content: center;
+    padding: 10px;
+    width: auto;
+}
+
+.cuerpo-1{
+    background-image: url(/assets/background.jfif);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-arreglo{
+    height: 300px;
+    width: 400px;
+  
+     margin-left: 35%;
+    margin-right: 30%;
+    border-radius: 30%;
+    box-shadow: 5px 5px 20px 5px rgb(119, 119, 119) ;
+   
+}
+
+.flex-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.imagen-tarjeta{
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    box-shadow: 5px 5px 20px 5px rgb(150, 136, 147) ;
+    border: 3px solid #bb8cab;
+    transition: .1s;
+    
+}
+
+.imagen-tarjeta:hover{
+    border: 6px solid #b4591b;
+}
+
+
+.item-nombre{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* faltan los estilos del pie de pagina */
+
+@media screen and (max-width:900px) {
+    
+    .cuerpo-1{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .imagen-arreglo{
+        height: 300px;
+        width: 400px;
+        margin-left: 27%;
+        margin-right: auto;
+        border-radius: 30%;
+        box-shadow: 5px 5px 20px 5px rgb(119, 119, 119) ;
+       
+    }
+
+    .imagen-tarjeta{
+        
+        height: 350px;
+        width: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
