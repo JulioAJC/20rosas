@@ -7,7 +7,7 @@
 }
 
 .cuerpo-1{
-    background-image: url(assets/background.jfif);
+    background-image: url(/assets/background.jfif);
     height: auto;
     display: flex;
     flex-direction: column;
