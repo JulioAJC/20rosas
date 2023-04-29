@@ -63,7 +63,7 @@
 
 /* faltan los estilos del pie de pagina */
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:800px) {
     
     
     .imagen-arreglo{
@@ -79,4 +79,26 @@
     }
  
   
+}
+
+@media screen and (max-width:500px) {
+    
+    
+    .imagen-arreglo{
+        height:250px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .imagen-tarjeta{
+        height: 125px;
+        width: 125px;
+        justify-content: space-between;
+    }
+    
+    .item-nombre{
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 100;
+    }
 }
