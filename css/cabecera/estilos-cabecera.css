@@ -1,5 +1,5 @@
 .cabezera{
-    background-image: url(/assets/background-cabezera.webp);
+    background-image: url(/assets/rosas-cabecera1.jfif);
     background-position: center;
     height: 100px;
     color: white;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width:900px) {
     .cabezera{
-    background-image: url(/assets/background-cabezera.webp);
+    background-image: url(/assets/rosas-cabecera1.jfif);
    width: 900px;
     height: 150px;
     color: white;
